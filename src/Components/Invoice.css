@@ -1,0 +1,46 @@
+.invoice {
+  max-width: 800px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.invoice_navbar-brand {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.invoice_container {
+  padding: 0 15px;
+}
+
+.invoice_text-right {
+  text-align: right;
+}
+
+.invoice_list-group {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-bottom: none;
+}
+
+.invoice_list-group.top {
+  border-radius: 5px 5px 0 0;
+  border-color: #007bff;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.invoice_list-group.bottom {
+  border-radius: 0 0 5px 5px;
+  background-color: #c6c8ca;
+}
+
+.invoice_list-item {
+  display: inline-block;
+  padding: 5px;
+}
+
+.invoice_list-item.description {
+  border-right: 1px solid #cccccc;
+  width: 607px;
+}
